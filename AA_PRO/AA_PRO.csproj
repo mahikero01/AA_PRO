@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\3rdpartylicenses.txt" />
+    <Content Remove="wwwroot\css\fontawesome-webfont.674f50d287a8c48dc19b.eot" />
+    <Content Remove="wwwroot\css\fontawesome-webfont.912ec66d7572ff821749.svg" />
+    <Content Remove="wwwroot\css\fontawesome-webfont.af7ae505a9eed503f8b8.woff2" />
+    <Content Remove="wwwroot\css\fontawesome-webfont.b06871f281fee6b241d6.ttf" />
+    <Content Remove="wwwroot\css\fontawesome-webfont.fee66e712a8a08eef580.woff" />
+    <Content Remove="wwwroot\css\glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
+    <Content Remove="wwwroot\css\glyphicons-halflings-regular.89889688147bd7575d63.svg" />
+    <Content Remove="wwwroot\css\glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
+    <Content Remove="wwwroot\css\glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
+    <Content Remove="wwwroot\css\glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
+    <Content Remove="wwwroot\css\styles.4da4b992e298d619d17e.bundle.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\3rdpartylicenses.txt" />
+    <None Include="wwwroot\css\fontawesome-webfont.674f50d287a8c48dc19b.eot" />
+    <None Include="wwwroot\css\fontawesome-webfont.912ec66d7572ff821749.svg" />
+    <None Include="wwwroot\css\fontawesome-webfont.af7ae505a9eed503f8b8.woff2" />
+    <None Include="wwwroot\css\fontawesome-webfont.b06871f281fee6b241d6.ttf" />
+    <None Include="wwwroot\css\fontawesome-webfont.fee66e712a8a08eef580.woff" />
+    <None Include="wwwroot\css\glyphicons-halflings-regular.448c34a56d699c29117a.woff2" />
+    <None Include="wwwroot\css\glyphicons-halflings-regular.89889688147bd7575d63.svg" />
+    <None Include="wwwroot\css\glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" />
+    <None Include="wwwroot\css\glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" />
+    <None Include="wwwroot\css\glyphicons-halflings-regular.fa2772327f55d8198301.woff" />
+    <None Include="wwwroot\css\styles.4da4b992e298d619d17e.bundle.css" />
+  </ItemGroup>
+
+</Project>
